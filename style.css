@@ -153,8 +153,8 @@ nav img {
 
     }
     h3 {
-        text align:center;
-        font: weight 600;
+        text-align:center;
+        font-weight: 600px;
         margin:10px 0;
         color:rgb(172, 19, 95);
 
@@ -326,9 +326,9 @@ body {
     padding: 15px 0;
     text-align: center;
 }
-    background-color: #111;
+    /* background-color: 111;
     padding: 15px 0;
-    text-align: center;
+    text-align: center; */
 .header nav{
     display: flex;
     justify-content: space-around;
@@ -353,11 +353,9 @@ body {
     transition: color 0.3s ;
 }
 
-.nav-links ul li a: hover{
-
-color:pink;
+.nav-links ul li a:hover{
+    color:pink;
 }
-
 
 
 /*contact-header*/
@@ -417,8 +415,8 @@ color:pink;
 }
 .contact-form button{
     background-color: rgb(211, 26, 82);
-    color:#ffffff
-    padding:#20px 20px;
+    color:#ffffff;
+    padding: 20px 20px;
     border: none;
     border-radius:10px;
     cursor:pointer;
